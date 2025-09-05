@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "pnpm --filter web dev",
-    "build": "pnpm --filter web build",
+    "build": "pnpm --filter db... build && pnpm --filter web... build",
     "start": "pnpm --filter web start",
     "lint": "pnpm --filter web lint",
     "db:generate": "pnpm --filter db db:generate",
